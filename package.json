@@ -1,0 +1,26 @@
+{
+    "name": "calculator-microservice",
+    "version": "1.0.0",
+    "description": "A simple calculator microservice using Node.js and Express",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "microservice",
+        "calculator",
+        "express",
+        "node.js"
+    ],
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2",
+        "winston": "^3.17.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
